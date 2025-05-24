@@ -1,1 +1,1 @@
-# shell-roboshop
+aws ec2 run-instances   --image-id ami-09c813fb71547fc4f   --instance-type t2.micro   --security-group-ids sg-07ea3d62300302f95   --subnet-id subnet-02dc2ea3700e04683   --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=test}]"   --query "Instances[0].PrivateIpAddress"   --output text
