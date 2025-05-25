@@ -1,7 +1,7 @@
 #!/bin/bash
 
-AMI_ID="ami-09c813fb71547fc4f"
-SG_ID="sg-0004c41560075b525" # replace with your SG ID
+AMI_ID="ami-09c813fb71547fc4f" 
+SG_ID="sg-0004c41560075b525" # replace with your SG ID sg-0004c41560075b525
 # SUBNET_ID="subnet-069adc0a563ff6839"
 # VPC_ID="vpc-09119d95499455ca2"
 INSTANCES=("mongodb" "catalogue" "frontend")
