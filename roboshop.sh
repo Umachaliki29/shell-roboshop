@@ -4,7 +4,7 @@ AMI_ID="ami-09c813fb71547fc4f"
 SG_ID="sg-01911fbb543963546" # replace with your SG ID sg-0004c41560075b525
 SUBNET_ID="subnet-01b5dce78b401a44f"
 VPC_ID="vpc-0028c24f9accf76e5"
-INSTANCES=("mongodb" "catalogue" "frontend")
+ #INSTANCES=("mongodb" "catalogue" "frontend")
 ZONE_ID="Z06495662WJ2QFJ1O0YBH" # replace with your ZONE ID
 DOMAIN_NAME="chaliki.site" # replace with your domain
 
